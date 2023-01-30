@@ -1,0 +1,21 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "title": "What is the slogan of BVG?",
+            "imageUrl": "",
+            "optionOne": "weil wir lieben",
+            "optionTwo": "Weil wir dich lieben",
+            "optionThree": "weil wir leben",
+            "answer": "Weil wir dich lieben"
+        },
+        {
+            "id": 2,
+            "title": "What year was the berlin wall built?",
+            "optionOne": "",
+            "optionTwo": "",
+            "optionThree": "",
+            "answer": "1961"
+        }
+    ]
+}
