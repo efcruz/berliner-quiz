@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { RouterLink, RouterView } from 'vue-router'
+
 defineProps<{
   msg: string
 }>()
@@ -8,10 +10,14 @@ defineProps<{
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
-      Do you think you are a real Berliner?
+      Do you think you are a real Berliner?</h3>
       <br>
-      <a href="https://vitejs.dev/" target="_blank" rel="noopener">Start the quiz!</a>
-    </h3>
+      <div class="wrapper">
+      <nav>
+        <RouterLink to="/questions/id">Start the quiz!</RouterLink>
+      </nav>
+    </div>
+    <RouterView />
   </div>
 </template>
 
