@@ -3,19 +3,25 @@
         {
             "id": 1,
             "title": "What is the slogan of BVG?",
-            "imageUrl": "",
-            "optionOne": "weil wir lieben",
-            "optionTwo": "Weil wir dich lieben",
-            "optionThree": "weil wir leben",
-            "answer": "Weil wir dich lieben"
+            "options": [
+                {
+                    "id": 1,
+                    "title": "Weil wir lieben"
+                },
+                {
+                    "id": 2,
+                    "title": "Weil wir dich lieben"
+                },
+                {
+                    "id": 3,
+                    "title": "weil wir leben"
+                }
+            ],
+            "answer": 2
         },
         {
             "id": 2,
             "title": "What year was the berlin wall built?",
-            "imageUrl": "",
-            "optionOne": "",
-            "optionTwo": "",
-            "optionThree": "",
             "answer": "1961"
         }
     ]
