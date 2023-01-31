@@ -22,7 +22,21 @@
         {
             "id": 2,
             "title": "What year was the berlin wall built?",
-            "answer": "1961"
+            "options": [
+                {
+                    "id": 1,
+                    "title": "1960"
+                },
+                {
+                    "id": 2,
+                    "title": "1961"
+                },
+                {
+                    "id": 3,
+                    "title": "1969"
+                }
+            ],
+            "answer": 2
         }
     ]
 }
