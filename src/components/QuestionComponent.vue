@@ -1,14 +1,29 @@
+<script setup lang="ts">
+import type { PropType, onMounted } from 'vue'
+import type { Question } from '../types.ts'
+
+defineProps<{
+  question: {
+    type: PropType<Question>
+    required: true
+  }
+}>()
+</script>
+
 <template>
-  <div class="item">
-    <i>
-      <slot name="icon"></slot>
-    </i>
-    <div class="details">
-      <h3>
-        <slot name="heading"></slot>
-      </h3>
-      <slot></slot>
+  <div class="question">
+    <h2>{{ question.id }}.{{ question.title }}</h2>
+    <div class="options">
+      <input type="checkbox" id="optionOne" name="optionOne" />
+      <label for="optionOne">{{ question.options[0].title }}</label>
+      <br />
+      <input type="checkbox" id="optionTwo" name="optionTwo" />
+      <label for="optionTwo">{{ question.options[1].title }}</label>
+      <br />
+      <input type="checkbox" id="optionThree" name="optionThree" />
+      <label for="optionThree">{{ question.options[2].title }}</label>
     </div>
+    <input type="submit" value="Next question" />
   </div>
 </template>
 

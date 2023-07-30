@@ -10,11 +10,11 @@ defineProps<{
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
-      Do you think you are a real Berliner?</h3>
+      How much a Berliner are you?</h3>
       <br>
       <div class="wrapper">
       <nav>
-        <RouterLink to="/questions/id">Start the quiz!</RouterLink>
+        <RouterLink to="/questions/1">Start the quiz!</RouterLink>
       </nav>
     </div>
     <RouterView />

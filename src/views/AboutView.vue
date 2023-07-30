@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1>Designed by Eduarda</h1>
+    <h1>Developed by Eduarda</h1>
   </div>
 </template>
 
